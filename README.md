@@ -33,6 +33,8 @@
 ## Browser the web 
     - http://localhost:8081/
 
-## ADD SASS
----------------
+## Add Node package Ex: SASS
 docker-compose run --rm node-service yarn add sass-loader@^13.0.0 sass --dev
+
+## Access the PHP container
+    docker exec -it php74-container bash
