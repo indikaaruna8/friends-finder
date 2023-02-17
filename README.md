@@ -32,4 +32,7 @@
 
 ## Browser the web 
     - http://localhost:8081/
-     
+
+## ADD SASS
+---------------
+docker-compose run --rm node-service yarn add sass-loader@^13.0.0 sass --dev
